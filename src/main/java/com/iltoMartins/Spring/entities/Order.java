@@ -91,6 +91,8 @@ public class Order implements Serializable {
 			this.orderStatus = orderStatus.getCode();
 		}
 	}
+	
+
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
